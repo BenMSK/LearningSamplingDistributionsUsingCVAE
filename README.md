@@ -25,6 +25,14 @@ The detailed descriptioin is on [this paper](https://arxiv.org/abs/1709.05448).
 * [**motion_planning_datasets**](https://github.com/mohakbhardwaj/motion_planning_datasets.git)  
 : motion_planning_datasets include several different environments.  
 
+## How to use:
+* Gather a data
+```
+{repository} $ python{PYTHONV} learned_sampling.py --data_gather True
+```
+This step gather a data which contains environment images and the samples that may lie at the optimal path.  
+This (sub) optimal path is obtained with RRT* within a constant iteration.  
+
 ## futher detail of this repo.   
 * **learned_sampling.py**: main fuction for running whole scripts.  
 * **cvae_sampler.py**: Training / Evaluating / Testing a model.  
