@@ -1,7 +1,7 @@
 # LearningSamplingDistributionsUsingCVAE
 
 ## Requirements:
-* Python 3.x (I confirm that the scripts run in Python 3.5.3)
+* Python 3.x (I confirm that the scripts run in Python 3.8.10)
 * pytorch 1.9.1+cu111
 * numpy 1.20.3
 * wandb (optional): if you don't want to use wandb for tracking the training process, type 'no' in wandb at globals.ini in configs/.
