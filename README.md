@@ -32,6 +32,20 @@ The detailed descriptioin is on [this paper](https://arxiv.org/abs/1709.05448).
 ```
 This step gather a data which contains environment images and the samples that may lie at the optimal path.  
 This (sub) optimal path is obtained with RRT* within a constant iteration.  
+Output results is '{environment_name}_env_sample.pickle'. The pickle file is used to train the CVAE model.  
+
+* Train a model
+```
+{repository} $ python{PYTHONV} learned_sampling.py --train True
+```
+
+* Test a model
+```
+{repository} $ python{PYTHONV} learned_sampling.py --test True --model_path ./checkpoints/{SOME_CHECKPOINT_FILE}.pt
+```
+
+## Trained results
+![image info](./test_img/shifting_gaps_best/stationary_shifting_gaps5.collcheck53)
 
 ## futher detail of this repo.   
 * **learned_sampling.py**: main fuction for running whole scripts.  
