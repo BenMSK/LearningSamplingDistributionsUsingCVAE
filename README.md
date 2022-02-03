@@ -45,7 +45,7 @@ Output results is '{environment_name}_env_sample.pickle'. The pickle file is use
 ```
 
 ## Trained results
-![image info](./test_img/shifting_gaps_best/stationary_shifting_gaps5.collcheck53)
+![image info](./test_img/shifting_gaps_best/stationary_shifting_gaps5.collcheck53.)
 
 ## futher detail of this repo.   
 * **learned_sampling.py**: main fuction for running whole scripts.  
