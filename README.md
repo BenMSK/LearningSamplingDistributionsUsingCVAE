@@ -45,6 +45,8 @@ Output results is '{environment_name}_env_sample.pickle'. The pickle file is use
 ```
 
 ## Trained results
+The CVAE model predict the (sub- or near-) optimal path at the current environment ('shifting_gaps').   
+The random configuration is sampled with 0.5 probability of uniform and 0.5 of bias by CVAE model.  
 ![image info](./test_img/shifting_gaps_best/stationary_shifting_gaps5.collcheck53.gif)
 
 ## futher detail of this repo.   
