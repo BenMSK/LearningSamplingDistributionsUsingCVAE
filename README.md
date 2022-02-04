@@ -15,9 +15,9 @@
 
 ## Descrition: 
 This repository aims to learn the sampling distribution of RRT or RRT* algorithm.  
-It implements the learned sampling module, which samples a random sample that may belong to the optimal path.  
-The optimal path is predcited by the conditional variational auto-encoder (CVAE) model.  
-The model gets an environment image as a conditional value, and generates random samples.  
+It implements the learned sampling module, which samples a random sample that may lie at the optimal path.  
+The optimal path is predicted by the conditional variational auto-encoder (CVAE) model.  
+The model gets an environment image as a conditional value and generates random samples.  
 With a probability _lambda, the learned sample is used. Otherwise, uniform sampling is applied.  
 The detailed descriptioin is on [this paper](https://arxiv.org/abs/1709.05448).  
 
